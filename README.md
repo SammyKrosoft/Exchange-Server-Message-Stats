@@ -1,7 +1,7 @@
 # Exchange-Server-Message-Stats
 This is a script that dumps the message stats from an OnPrem Exchange environment. It's taken from Microsoft's Risk Assessment bundle.
 
-There is another updated version of this script here on Marco Roth's Github :
+This script is an updated version from Marco Roth's script, which original version is available on his Github page:
 [Message Stats script from Marco Roth](https://github.com/msftmroth/MessageStats)
 
 - Simple execution but limited to dates in the past from today
