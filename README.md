@@ -4,9 +4,14 @@ This is a script that dumps the message stats from an OnPrem Exchange environmen
 There is another version of this script here on Marco Roth's Github :
 [Message Stats script from Marco Roth](https://github.com/msftmroth/MessageStats)
 
+- Quick sample: ``` .\MessageStats.ps1 1000 ```
+
 Alternatively, you can also use the script from the Microsoft Exchange Team Blog:
 [Exchange Team Blog - Generating User Message Profile](https://techcommunity.microsoft.com/t5/exchange-team-blog/generating-user-message-profiles-for-use-with-the-exchange/ba-p/610916)
+
 - For convenience, I also forked a copy of this script in this repository
+
+- Quick Sample: ``` Generate-MessageProfile.ps1 -ADSites "EastDC1","West*" -StartOnDate 01/15/2024 -EndBeforeDate 01/31/2024 -OutCSVFile MultiSites.CSV -ExcludeHealthData ```
 
 
 # Usage
