@@ -8,6 +8,8 @@ There is another updated version of this script here on Marco Roth's Github :
 
 - Quick sample: ``` .\MessageStats.ps1 1000 ```
 
+- Quick download from this repository here: [Quick download MessageStats.ps1 script](https://github.com/SammyKrosoft/Exchange-Server-Message-Stats/blob/main/messagestats.ps1)
+
 Alternatively, you can also use the script from the Microsoft Exchange Team Blog:
 [Exchange Team Blog - Generating User Message Profile](https://techcommunity.microsoft.com/t5/exchange-team-blog/generating-user-message-profiles-for-use-with-the-exchange/ba-p/610916)
 
@@ -16,6 +18,8 @@ Alternatively, you can also use the script from the Microsoft Exchange Team Blog
 - Better granularity than the MessageStats.ps1 script
 
 - Quick Sample: ``` Generate-MessageProfile.ps1 -ADSites "EastDC1","West*" -StartOnDate 01/15/2024 -EndBeforeDate 01/31/2024 -OutCSVFile MultiSites.CSV -ExcludeHealthData ```
+
+- Quick download from this repository here: [Quick download Get-MessageProfile.ps1 script](https://github.com/SammyKrosoft/Exchange-Server-Message-Stats/blob/main/Generate-MessageProfile.zip)
 
 
 # Usage
