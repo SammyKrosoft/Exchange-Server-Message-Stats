@@ -23,6 +23,9 @@ Alternatively, you can also use the script from the Microsoft Exchange Team Blog
 
 
 # Usage
+
+## MessageStats.ps1
+
 ```powershell
 .\MessageStats.ps1 <Num days back>
 ```
@@ -36,5 +39,19 @@ Example to cover the 1000 last days:
 
 ![image](https://user-images.githubusercontent.com/33433229/167988095-843c50db-18df-4d91-82aa-ff9c5ffa4a84.png)
 
+## Get-MessageProfile.ps1
+
+Example to get message statistics of EastDC1 AD site and all AD sites starting with the "West" prefix, between 2 dates, excluding Health Mailbox test system e-mails (that is for Exchange Managed Availability), and outputting the results in a CSV file:
+```powershell
+Generate-MessageProfile.ps1 -ADSites "EastDC1","West*" -StartOnDate 01/15/2024 -EndBeforeDate 01/31/2024 -OutCSVFile MultiSites.CSV -ExcludeHealthData
+```
+
 # Download
+
+## MessageStats.ps1
+
 Download either from this repository'(see the list of files above), or right-click "Save As" from [this link](https://raw.githubusercontent.com/SammyKrosoft/Exchange-Server-Message-Stats/main/messagestats.ps1)
+
+## Get-MessageProfile.ps1
+
+Download either from this repository'(see the list of files above), or right-click "Save As" from [this link](https://github.com/SammyKrosoft/Exchange-Server-Message-Stats/blob/main/Generate-MessageProfile.zip)
